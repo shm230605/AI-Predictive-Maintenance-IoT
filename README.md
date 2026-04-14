@@ -93,10 +93,3 @@ AI-Predictive-Maintenance-IoT/
 
 ---
 
-## 📦 Installation
-
-### 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/YOUR_USERNAME/AI-Predictive-Maintenance-IoT.git
-cd AI-Predictive-Maintenance-IoT
