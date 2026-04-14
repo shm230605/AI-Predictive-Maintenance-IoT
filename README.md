@@ -64,19 +64,31 @@ This system is widely used in:
 ```
 AI-Predictive-Maintenance-IoT/
 │
-├── 📁 data/
-├── 📁 src/
-├── 📁 models/
-├── 📁 outputs/
-├── 📁 images/
-├── 📁 notebooks/
-├── 📁 docs/
+├── data/
+├── images/
+│   ├── feature_importance.png
+│   ├── roc_curve.png
+│   ├── confusion_matrix.png
+│   ├── temperature.png
+│   └── failure.png
+│
+├── models/
+│   └── model.pkl
+│
+├── src/
+│   ├── data_loader.py
+│   ├── preprocess.py
+│   ├── model.py
+│   ├── train.py
+│   ├── evaluate.py
+│   ├── visualize.py
+│   ├── predict.py
 │
 ├── main.py
 ├── app.py
 ├── requirements.txt
 ├── README.md
-├── .gitignore
+└── .gitignore
 ```
 
 ---
